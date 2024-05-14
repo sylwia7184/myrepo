@@ -10,13 +10,13 @@ pipeline {
 
   stages {
 
-    stage('Hello') {
+    stage('Buildmyapp') {
 
       steps {
 
         sh '''
 
-          java -version
+          mvn clean install
 
         '''
 
@@ -24,25 +24,6 @@ pipeline {
 
     }
 
-    stage('cat README') {
-
-      when {
-
-        branch "fix-*"
-
-      }
-
-      steps {
-
-        sh '''
-
-          cat README.md
-
-        '''
-
-      }
-
-    }
 
   }
 
