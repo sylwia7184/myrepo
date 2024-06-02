@@ -1,8 +1,8 @@
-package com.example.database.controller;
+package com.example.database_display.controller;
 
-import com.example.database.entity.FirstTable;
-import com.example.database.entity.SecondTable;
-import com.example.database.service.DataService;
+import com.example.database_display.entity.FirstTable;
+import com.example.database_display.entity.SecondTable;
+import com.example.database_display.service.DataService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;

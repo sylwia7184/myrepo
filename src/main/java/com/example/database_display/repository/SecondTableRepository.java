@@ -1,6 +1,6 @@
-package com.example.database.repository;
+package com.example.database_display.repository;
 
-import com.example.database.entity.SecondTable;
+import com.example.database_display.entity.SecondTable;
 import org.springframework.data.mongodb.repository.MongoRepository;
 import org.springframework.stereotype.Repository;
 

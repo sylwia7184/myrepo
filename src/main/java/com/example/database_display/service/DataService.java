@@ -1,9 +1,9 @@
-package com.example.database.service;
+package com.example.database_display.service;
 
-import com.example.database.entity.FirstTable;
-import com.example.database.entity.SecondTable;
-import com.example.database.repository.FirstTableRepository;
-import com.example.database.repository.SecondTableRepository;
+import com.example.database_display.entity.FirstTable;
+import com.example.database_display.entity.SecondTable;
+import com.example.database_display.repository.FirstTableRepository;
+import com.example.database_display.repository.SecondTableRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
