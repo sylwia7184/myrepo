@@ -4,33 +4,37 @@
     <title>Data Display</title>
 </head>
 <body>
-    <h1>First Table Data</h1>
-    <table border="1">
+    <h1>Data from First Table</h1>
+    <table>
         <thead>
             <tr>
                 <th>ID</th>
                 <th>Name</th>
+                <th>Value</th>
             </tr>
         </thead>
         <tbody>
             <tr th:each="item : ${firstTableData}">
                 <td th:text="${item.id}"></td>
                 <td th:text="${item.name}"></td>
+                <td th:text="${item.value}"></td>
             </tr>
         </tbody>
     </table>
 
-    <h1>Second Table Data</h1>
-    <table border="1">
+    <h1>Data from Second Table</h1>
+    <table>
         <thead>
             <tr>
                 <th>ID</th>
+                <th>Title</th>
                 <th>Description</th>
             </tr>
         </thead>
         <tbody>
             <tr th:each="item : ${secondTableData}">
                 <td th:text="${item.id}"></td>
+                <td th:text="${item.title}"></td>
                 <td th:text="${item.description}"></td>
             </tr>
         </tbody>
